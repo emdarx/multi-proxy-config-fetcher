@@ -10,16 +10,15 @@ class ChannelConfig:
 class ProxyConfig:
     def __init__(self):
         self.TELEGRAM_CHANNELS = [
-            ChannelConfig("https://t.me/s/v2ray_free_conf"),
-            ChannelConfig("https://t.me/s/v2rayvpno"),
-            ChannelConfig("https://t.me/s/ZibaNabz"),
-            ChannelConfig("https://t.me/s/v2rayngvpn"),
-            ChannelConfig("https://t.me/s/V2ray_Alpha"),
-            ChannelConfig("https://t.me/s/SvnV2ray"), 
-            ChannelConfig("https://t.me/s/RadixVPN"),
-            ChannelConfig("https://t.me/s/PrivateVPNs"),
-            ChannelConfig("https://t.me/s/VlessConfig"),
-            ChannelConfig("https://t.me/s/freewireguard")
+            ChannelConfig("https://t.me/v2rayngvpn"),
+            ChannelConfig("https://t.me/v2rayvpno"),
+            ChannelConfig("https://t.me/RadixVPN"),
+            ChannelConfig("https://t.me/V2ray_Alpha"),
+            ChannelConfig("https://t.me/nufilter"),
+            ChannelConfig("https://t.me/meli_proxyy"),
+            ChannelConfig("https://t.me/heyatserver"),
+            ChannelConfig("https://t.me/SvnV2ray"),
+            ChannelConfig("https://t.me/ZibaNabz"),
         ]
 
         self.PROTOCOL_CONFIG_LIMITS = {
